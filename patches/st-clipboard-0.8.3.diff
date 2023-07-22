@@ -8,5 +8,5 @@ index e5f1737..5cabd60 100644
  		selclear();
 +	clipcopy(NULL);
  }
-
+ 
  void

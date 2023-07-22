@@ -34,8 +34,9 @@ index e5f1737..b6ae162 100644
 +		XCopyArea(xw.dpy, xw.win, xw.buf, dc.gc, 0, 0, win.w, win.h, 0, 0);
  	return IS_SET(MODE_VISIBLE);
  }
-
+ 
 
 base-commit: 43a395ae91f7d67ce694e65edeaa7bbc720dd027
---
+-- 
 2.17.1
+
