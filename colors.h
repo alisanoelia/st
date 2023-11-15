@@ -3,9 +3,9 @@ const char *colorname[] = {
   /* 8 normal colors */
   [0] = "#0C020C", /* black   */
   [1] = "#635650", /* red     */
-  [2] = "#35534B", /* green   */
+  [2] = "#2B3D42", /* blue    */
   [3] = "#8E6A2D", /* yellow  */
-  [4] = "#2B3D42", /* blue    */
+  [4] = "#35534B", /* blue    */
   [5] = "#B9723C", /* magenta */
   [6] = "#C19341", /* cyan    */
   [7] = "#ffffff", /* white   */
@@ -16,8 +16,8 @@ const char *colorname[] = {
   [9] = "#635650", /* red     */
   [10] = "#35534B", /* green   */
   [11] = "#8E6A2D", /* yellow  */
-  [12] = "#2B3D42", /* blue    */
-  [13] = "#B9723C", /* magenta */
+  [12] = "#35534B", /* blue    */
+	[13] = "#B9723C", /* magenta */
   [14] = "#C19341", /* cyan    */
   [15] = "#ffffff", /* white   */
 
