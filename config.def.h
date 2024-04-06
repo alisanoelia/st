@@ -109,7 +109,7 @@ unsigned int tabspaces = 8;
 float alpha = 1;
 
 /* Terminal colors (16 first used in escape sequence) */
-#include "colors.h"
+#include "everforest.h"
 
 /*
  * https://invisible-island.net/xterm/ctlseqs/ctlseqs.html#h4-Functions-using-CSI-_-ordered-by-the-final-character-lparen-s-rparen:CSI-Ps-SP-q.1D81
