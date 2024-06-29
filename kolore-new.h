@@ -2,29 +2,29 @@ const char *colorname[] = {
 
     /* Base colors */
     [0] = "#00171a", // Black
-    [1] = "#f85552", // red
-    [2] = "#36a77c", // green
+    [1] = "#C54844", // red
+    [2] = "#2A8958", // green
     [3] = "#dfa000", // yellow
-    [4] = "#3a94c5", // blue
-    [5] = "#d33682", // magenta
+    [4] = "#4492C5", // blue
+    [5] = "#A2702F", // magenta
     [6] = "#33b5aa", // cyan
-    [7] = "#d1ebf0", // white
+    [7] = "#C3BFBB", // white
 
     /* Colores brillantes */
 
-    [8] = "#d2d2d2",
-    [9] = "#f85552",
-    [10] = "#36a77c",
+    [8] = "#C3BFBB",
+    [9] = "#C54844",
+    [10] = "#2A8958",
     [11] = "#dfa000",
-    [12] = "#3a94c5",
-    [13] = "#d33682",
+    [12] = "#4492C5",
+    [13] = "#A2702F",
     [14] = "#33b5aa",
-    [15] = "#d2d2d2",
+    [15] = "#C3BFBB",
 
     /* [256] = "#020d0e", */
     [256] = "#02090e",
-    [257] = "#d2d2d2",
-    [258] = "#d2d2d2",
+    [257] = "#C3BFBB",
+    [258] = "#C3BFBB",
 };
 
 /* Default colors (colorname index)
