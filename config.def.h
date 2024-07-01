@@ -8,6 +8,11 @@
 static char *font =
     "JetBrainsMono Nerd "
     "Font:style=Bold:pixelsize=12:antialias=true:autohint=false";
+
+static char *font2[] = {
+    "Noto Color Emoji:pixelsize=10:antialias=true:autohint=true",
+};
+
 static int borderpx = 15;
 
 /*
