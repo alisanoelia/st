@@ -116,7 +116,7 @@ unsigned int tabspaces = 8;
 float alpha = 0.7;
 
 /* Terminal colors (16 first used in escape sequence) */
-#include "kolore.h"
+#include "minimal.h"
 
 /*
  * https://invisible-island.net/xterm/ctlseqs/ctlseqs.html#h4-Functions-using-CSI-_-ordered-by-the-final-character-lparen-s-rparen:CSI-Ps-SP-q.1D81
