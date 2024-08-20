@@ -13,7 +13,7 @@ static char *font2[] = {
     "Noto Color Emoji:pixelsize=10:antialias=true:autohint=true",
 };
 
-static int borderpx = 15;
+static int borderpx = 30;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -23,7 +23,7 @@ static int borderpx = 15;
  * 4: value of shell in /etc/passwd
  * 5: value of shell in config.h
  */
-static char *shell = "/bin/zsh";
+static char *shell = "/bin/sh";
 char *utmp = NULL;
 /* scroll program: to enable use a string like "scroll" */
 char *scroll = NULL;
@@ -116,7 +116,7 @@ unsigned int tabspaces = 8;
 float alpha = 0.7;
 
 /* Terminal colors (16 first used in escape sequence) */
-#include "minimal.h"
+#include "asha.h"
 
 /*
  * https://invisible-island.net/xterm/ctlseqs/ctlseqs.html#h4-Functions-using-CSI-_-ordered-by-the-final-character-lparen-s-rparen:CSI-Ps-SP-q.1D81
