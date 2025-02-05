@@ -116,7 +116,7 @@ unsigned int tabspaces = 8;
 float alpha = 0.7;
 
 /* Terminal colors (16 first used in escape sequence) */
-#include "asha.h"
+#include "colorschemes/pome.h"
 
 /*
  * https://invisible-island.net/xterm/ctlseqs/ctlseqs.html#h4-Functions-using-CSI-_-ordered-by-the-final-character-lparen-s-rparen:CSI-Ps-SP-q.1D81
@@ -131,7 +131,7 @@ float alpha = 0.7;
  * 7: blinking st cursor
  * 8: steady st cursor
  */
-static unsigned int cursorstyle = 1;
+static unsigned int cursorstyle = 5;
 static Rune stcursor = 0x2603; /* snowman ("☃") */
 
 /*
